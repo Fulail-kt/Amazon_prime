@@ -8,7 +8,7 @@ import down from '../../../public/images/down.svg'
 const Navbar = () => {
   return (
     <nav className="bg-black text-white w-full">
-      <div className=" px-4  flex items-center w-full justify-center">
+      <div className="px-3 flex items-center w-full justify-center">
         {/* Logo */}
         <div className="flex items-center">
           <span className="text-lg font-semibold px-6">prime video</span>
