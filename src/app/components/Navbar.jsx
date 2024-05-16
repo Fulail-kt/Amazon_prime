@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import search from '../../../public/images/search.png'
 import profile from '../../../public/images/profile.svg'
-import arrow from '../../../public/images/arrow.svg'
 import down from '../../../public/images/down.svg'
 
 

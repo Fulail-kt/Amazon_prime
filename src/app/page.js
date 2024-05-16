@@ -10,10 +10,12 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className=" min-h-screen ">
-
+      {/* Navbar */}
       <div className="w-full bg-red-400">
         <Navbar />
       </div>
+
+      {/* First hero section */}
       <div className="h-screen justify-start bg-hero-bg1 bg-no-repeat flex-1 bg-right w-full">
         <div className="bg-black-gradient h-full flex  flex-col gap-y-8 p-10 w-full ">
           <h1 className="text-4xl tracking-wide font-bold">Welcome to Prime Video</h1>
@@ -22,7 +24,7 @@ export default function Home() {
         </div>
       </div>
 
-
+      {/* Second  section */}
       <div className="h-screen overflow-y-hidden justify-start bg-hero-bg2 bg-no-repeat flex-1 bg-right w-full">
         <div className="bg-black-gradient h-full flex tracking-wide flex-col gap-y-8 p-10 w-full ">
           <h1 className="text-4xl font-bold">Movie rentals on Prime Video</h1>
@@ -30,6 +32,8 @@ export default function Home() {
           <div className="py-4"><button className="bg-blue-500 w-72 py-3 font-bold rounded-sm">Rent now</button></div>
         </div>
       </div>
+
+      {/* Third section */}
       <div className="bg-white flex px-16 text-black h-100  w-full">
         <div className="w-1/2 py-10  flex flex-col gap-6">
           <h1 className="text-[38px] font-extrabold" >Your favorite channels all <br /> in one place</h1>
@@ -44,15 +48,16 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Fourth  section */}
       <div className="h-screen  bg-black justify-end  bg-hero-bg3 bg-no-repeat flex bg-left w-full">
-      <div className="bg-black-gradientleft  h-full flex tracking-wide  flex-col gap-y-8 p-10  ">
+        <div className="bg-black-gradientleft  h-full flex tracking-wide  flex-col gap-y-8 p-10  ">
           <h1 className="text-4xl font-bold">Even better with Fire TV Stick</h1>
-          <p className="text-xl">The biggest movies and TV shows are always better on a big<br/> screen. Simply plug in your Amazon Fire TV Stick and stream on <br/> any HDTV. Press the voice button on the remote and say the name<br/> of the title you want to watch to find it in seconds.</p>
+          <p className="text-xl">The biggest movies and TV shows are always better on a big<br /> screen. Simply plug in your Amazon Fire TV Stick and stream on <br /> any HDTV. Press the voice button on the remote and say the name<br /> of the title you want to watch to find it in seconds.</p>
           <div className="py-4"><button className="bg-blue-500 w-72 py-3 font-bold rounded-sm">Get started</button></div>
         </div>
       </div>
-
-<Footer/>
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }

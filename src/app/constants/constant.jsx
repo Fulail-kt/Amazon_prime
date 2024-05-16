@@ -11,6 +11,7 @@ import vrott from '../../../public/images/vrott.png'
 import erosnow from '../../../public/images/erosnow.jpg'
 import stingray from '../../../public/images/stingray.png'
 
+// Image Card
 
 export const images = [
     { img: lionsgate },
@@ -27,6 +28,7 @@ export const images = [
     { img: stingray },
   ]
 
+//   Navbar link
   export const nav=[
     {path:'Home',nav:'#'},
     {path:'Store',nav:'#'},
