@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         'hero-bg1': "url('/images/herobg.jpg')",
         'hero-bg2': "url('/images/hero2bg.jpg')",
+        'black-gradient': 'linear-gradient(to right, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 100%)'
       },
     },
   },
